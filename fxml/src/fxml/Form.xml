@@ -1,0 +1,16 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="fxml.FormController">
+    <children>
+        <ImageView>
+            <image>
+                <Image url="@devex-logo.gif"/>
+            </image>
+        </ImageView>
+        <Label text="%login" layoutX="80"/>
+        <TextField fx:id="textInput" layoutX="140"/>
+        <Button text="%ok" layoutX="140" layoutY="40"
+                onAction="#handleButtonAction"/>
+    </children>
+</Group>

@@ -1,0 +1,28 @@
+.button {
+    -fx-text-fill: #FF0000;
+    /*-fx-background-color: #DFB951;*/
+
+    /*-fx-text-fill: rgb(255, 00, 00);*/
+    -fx-border-color: rgb(49, 89, 23);
+
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+.button1 {
+    -fx-text-fill: #0000FF;
+    -fx-border-color: rgb(149,189, 123);
+
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+    myStyle:123;
+}
+
+#button3 {
+    -fx-text-fill: #00FF00;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 10;
+}

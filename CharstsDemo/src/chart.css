@@ -1,0 +1,127 @@
+/*.chart {
+    -fx-padding: 5px;
+    -fx-background-color: #d2d2d2;
+}
+.chart-content {
+    -fx-padding: 10px;
+    -fx-background-color: #d2d2d2;
+}*/
+
+/*.chart-plot-background {
+    -fx-background-color: #d2d2d2;
+}*/
+
+/*.chart-alternative-column-fill {
+    -fx-fill: #d2d2d2;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #d2d2d2;
+}*/
+
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #dddddd;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #dddddd;
+}
+
+/*.axis {
+    -fx-background-color: #d2d2d2;
+}*/
+.axis:top {
+    -fx-border-color: transparent transparent #dddddd transparent;
+}
+.axis:right {
+    -fx-border-color: transparent transparent transparent #dddddd;
+}
+.axis:bottom {
+    -fx-border-color: #dddddd transparent transparent transparent;
+}
+.axis:left {
+    -fx-border-color: transparent #dddddd transparent transparent;
+}
+
+.chart-vertical-zero-line {
+    -fx-stroke: #dddddd;
+}
+.chart-horizontal-zero-line {
+    -fx-stroke: #dddddd;
+}
+
+/*---------------------*/
+.legend {
+    -fx-font: bold 18px "Arial";
+}
+.cross {
+    -fx-stroke: #FF5500;
+    -fx-stroke-width: 1px;
+}
+.crossLabel {
+    -fx-background-color: #FF5500;
+    -fx-background-radius: 2, 2, 2, 2;
+}
+
+.candlestick-tooltip-label {
+    -fx-font: bold 9px "Amble Cn";
+    -fx-text-fill: #666666;
+    -fx-padding: 2 5 2 0;
+}
+.candlestick-average-line {
+    -fx-stroke: #106ece;
+    -fx-stroke-width: 2px;
+}
+.candlestick-candle {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 2 , 4 );
+}
+.candlestick-line {
+    -fx-stroke: #666666;
+    -fx-stroke-width: 3px;
+}
+.candlestick-bar {
+    -fx-padding: 5;
+    -bar-fill: red;
+    -fx-background-color: linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,-30%)) (100%, derive(-bar-fill,-40%)),
+                          linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,100%)) (100%, derive(-bar-fill, 10%)),
+                          linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,30%)) (100%, derive(-bar-fill,-10%));
+    -fx-background-insets: 0,1,2;
+}
+.candlestick-bar.close-above-open {
+    -bar-fill: green;
+}
+.candlestick-bar.open-above-close {
+    -bar-fill: red;
+}
+.candlestick-bar.equal {
+    -bar-fill: #666666;
+}
+
+/*bar*/
+/*.bar-candle {
+    -fx-effect: dropshadow( two-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 2 , 4 );
+}*/
+
+.bar {
+    -fx-stroke-width: 3px;
+}
+.bar.close-above-open {
+    -fx-stroke-width: 3px;
+    -fx-stroke: green;
+}
+.bar.open-above-close {
+    -fx-stroke-width: 3px;
+    -fx-stroke: red;
+}
+.bar.equal {
+    -bar-fill: #666666;
+}
+
+.candlestick-volume {
+    -bar-fill: #8F20FF;
+    -fx-background-color: linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,-30%)) (100%, derive(-bar-fill,-40%)),
+                          linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,100%)) (100%, derive(-bar-fill, 10%)),
+                          linear (0%,0%) to (0%,100%) stops (0%, derive(-bar-fill,30%)) (100%, derive(-bar-fill,-10%));
+    -fx-background-insets: 0,1,2;
+}
+
+
